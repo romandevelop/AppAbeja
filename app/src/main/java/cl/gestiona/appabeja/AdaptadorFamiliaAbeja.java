@@ -27,20 +27,7 @@ public class AdaptadorFamiliaAbeja extends ArrayAdapter<Abeja> {
     @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        LayoutInflater inflater;
-        inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        if (convertView == null){
-            convertView = inflater.inflate(R.layout.card_abeja, parent, false);
-        }
 
-        ImageView imageView = (ImageView) convertView.findViewById(R.id.img_abeja);
-        TextView txt1 = (TextView) convertView.findViewById(R.id.name_abeja);
-        TextView txt2 = (TextView) convertView.findViewById(R.id.description_abeja);
-
-        Abeja abeja = getItem(position);
-        imageView.setImageResource(abeja.foto);
-        txt1.setText(abeja.nombre);
-        txt2.setText(abeja.descricion);
         return convertView;
     }
 }
