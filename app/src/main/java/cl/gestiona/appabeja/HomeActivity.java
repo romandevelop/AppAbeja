@@ -10,7 +10,6 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -56,7 +55,9 @@ public class HomeActivity extends AppCompatActivity {
                 case 0:
                     return new FamiliaAbejasFragment();
                 case 1:
-                    return new GuiaFragment();
+                    return new PlantasFragment();
+                case 2:
+                    return new EspacioFragment();
             }
 
             return null;
@@ -64,16 +65,18 @@ public class HomeActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 2;
+            return 3;
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position){
                 case 0:
-                    return "Familia";
+                    return "ABEJAS";
                 case 1:
-                    return "Guía";
+                    return "PLANTAS";
+                case 2:
+                    return "TRABAJO";
             }
             return null;
         }
