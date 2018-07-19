@@ -7,6 +7,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.daimajia.androidanimations.library.Techniques;
+import com.daimajia.androidanimations.library.YoYo;
+
 public class MainActivity extends AppCompatActivity {
 
     ImageView imageView;
@@ -18,9 +21,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         imageView = (ImageView) findViewById(R.id.img);
 
-        imageView.setBackgroundResource(R.drawable.animacion);
-        animation = (AnimationDrawable)imageView.getBackground();
-        animation.start();
+        //imageView.setBackgroundResource(R.drawable.animacion);
+        //animation = (AnimationDrawable)imageView.getBackground();
+        //animation.start();
+
+        YoYo.with(Techniques.Tada)
+                .duration(700)
+                .repeat(5)
+                .playOn(findViewById(R.id.img));
 
          new Handler().postDelayed(new Runnable() {
              @Override
@@ -29,13 +37,12 @@ public class MainActivity extends AppCompatActivity {
                  startActivity(i);
                  finish();
              }
-         }, 5000);
+         }, 2000);
 
     }
 
     @Override
     protected void onResume() {
-
         super.onResume();
     }
 

@@ -6,50 +6,441 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- Nombre Familia -->
     <string name="adrenidae_name">
-        Adrenidae
-    </string>
+Adrenidae
+</string>
 
     <string name="colletidae_name">
-        Colletidae
-    </string>
+Colletidae
+</string>
 
     <string name="halictidae_name">
-        Halictidae
-    </string>
+Halictidae
+</string>
 
     <string name="megachilidae_name">
-        Megachilidae
-    </string>
+Megachilidae
+</string>
 
     <string name="apidae_name">
-        Apidae
-    </string>
+Apidae
+</string>
 
+    <!-- Descripcion Familia -->
     <string name="adrenaide_descripcion">
-
-        Las abejas de la familia Andrenidae, son de tamaños pequeño (2-9 mm), su cuerpo es algo aplastado dorsoventralmente, tienen la cara ancha, sin zona malar, generalmente los machos presentan manchas claras en el cuerpo. Presentan dos suturas subantenales, glosa más bien corta, lóbulo jugal del ala posterior tan largo o más largo que la submediana. Es una de las familias más diversas que habita en Chile.
-
-
-    </string>
+Las abejas de la familia Andrenidae, son de tamaños pequeños que van desde los 2 a 9mm. Característico de esta familia es la presencia de dos suturas subantenales. Entre otras de sus caracteríticas importantes están: cara ancha sin zona malar. una glosa más bien corta, lóbulo jugal del ala posterior tan largo o más largo que la submediana. Su cuerpo suele estar aplastado dorsoventralmente y los machos de esta familia suelen presentar manchas blancas o claras en su cuerpo.
+</string>
 
     <string name="colletidae_descripcion">
-        Las pertenecientes a la familia Colletidae, son de tamaño mediano a grandes (9-20 mm), son más bien primitivas, de vida solitarias, tienen fóvea facial generalmente presente, sutura subantenal unida internamente al alveolo, lo mas distintivo es que poseen el extremo de la glosa bilobulada y emarginada, ya que es utilizada para tapizar las celdillas de los nidos de sus crías, con una sustancia que funciona como revestimiento. Son especies muy llamativas debido a su gran tamaño.
-    </string>
+Las abejas de la familia Collitidae, tienen tamaños aproximados entre 9 y 20 mm. La característica más sobresalientede este grupo es la presencia de una glosa bilobulada. Además, tienen fóvea facial generalmente presente y una sutura subantenal.
+</string>
 
     <string name="halictidae_descripcion">
-        La Familia Halictidae presenta abejas de tamaño medio (3-10 mm), generalmente de colores metálicos brillantes, verdes o azules o con bandas de color rojo. Estas abejas se caracterizan por tener una probóscide triangular, corta, excepto en el género Penapis, tienen alas anteriores con 2 o 3 submarginales, la vena basal está fuertemente curvada hacia la base del ala. La mayoría de las especies tiene marcado dimorfismo sexual, presentan diferentes hábitos, desde vida solitaria hasta vida eusocial.
-    </string>
+La familia Halictedae tienen abejas de tamaño medio que van entre los 3 y 10 mm. Suelen tener colores metálicos brillantes, verdes o azules. Estas abejas se caracterizan principalmente por tener una probóscide corta y triangulár y la vena basal fuertemente curvada hacia la base del ala. Además tienen alas anteriores con 2 o 3 submarginales.
+</string>
 
 
     <string name="megachilidae_descripcion">
-        Las abejas de la familia Megachilidae, tienen tamaños pequeños a grandes (5-20 mm), cuerpo robusto, más bien aplastado dorsoventralmente, cabeza grande y ancha, mandíbulas ensanchadas de borde cortante y labro alargado. Presentan el aparato colector de polen (escopa) en la faz ventral del abdomen. Las abejas de este grupo que son cleptoparasitas no presentan este tipo de escopa diferenciándose por su abdomen cónico terminado en una aguda punta. Presentan además dos celdas submarginales. Viven en forma solitaria y tienen el hábito de construir las celdas de sus nidos con trozos de hojas o pétalos, por lo que suelen denominarse abejas cortadoras de hojas. Nidifican en suelos, en cavidades preestablecidas, bajo piedras o en troncos de árboles.
-    </string>
+Las abejas Megachilidae, poseen tamaños que van de 5 a 20 mm. Es característicos de esta familia la presencia de un aparato colector de polen llamado escopa, ubicado en la faz ventral del abdomen. Presentan además dos celdas submarginales. Poseen un cuerpo robusto, aplastado dosorventralmente con cabeza grande y ancha, y mandíbulas ensanchadas de borde cortante y labro alargado.
+</string>
 
     <string name="apidae_descripcion">
-        La clasificación de las abejas de la familia Apidae ha sido modificada y aún no hay acuerdo completo en ella. Anteriormente solo las abejas relacionadas a la abeja melífera, los abejorros eran considerados miembros de esta familia pero ahora también se incluyen todas las abejas que antes se ubicaban en la familia Anthoporidae (tribu Anthophorini).
+En la familia Apidae, la mayoria de las abejas de este grupo poseen tres celdas submarginales y presentan corbículas tibiales para colectar polen. Entre otras de sus características esta, su condición social especialmente las de la subfamilia Apinae. Sin embargo en este grupo se reconocen también abejas solitarias y algunas parásitas.
+</string>
+
+    <!-- Abejas Familia adrenaide -->
+
+    <!-- abeja 1 -->
+    <string name="adrenaide_Acamptopoeum_submetallicum">
+Acamptopoeum submetallicum
+</string>
+
+    <string name="adrenaide_Acamptopoeum_submetallicum_descripcion">
+Abejas pequeñas, menores a 1 cm. Gran cantidad de pelos amarillos en todo el cuerpo. Se encuentra desde la Región de Atacama hasta la Región De Los Lagos, incluso en el sur de Argentina. Nidifica en terrenos arcillosos a orillas de caminos. Es una especie poliléctica, es decir visita muchas especies vegetales diferentes.
+</string>
+
+    <string name="adrenaide_Acamptopoeum_submetallicum_plantas">
+Eryngium paniculatum#Taraxacum officinale#Haplopapus sp.#Baccharis sp
+</string>
+
+    <!-- Abejas Familia colletidae -->
+
+    <!-- abeja 1 -->
+    <string name="colletidae_Caupolicana_gayi">
+Caupolicana gayi
+</string>
+
+    <string name="colletidae_Caupolicana_gayi_descripcion">
+Es una abeja grande y robusta, alcanzando tamaños entre 15 a 20 mm. Sus antenas, así como su cabeza, cuerpo y patas son de color negro. Su pelaje es blanco, largo y erizado en el tórax o parte media de los artrópodos (mesosoma) con pilosidad del vientre del abdomen negra. Los machos son territoriales y se les suele ver persiguiéndose entre ramas de árboles, como maqui, cuidando de su espacio. Es una especie endémica, pudiéndose ver desde la región de Atacama hasta la región de La Araucanía. Se suelen ver a partir de la primavera entre septiembre y diciembre. Nidifica en taludes cavando agujeros, prefiere suelos arenosos y limosos.
+</string>
+
+    <string name="colletidae_Caupolicana_gayi_plantas">
+ligustrinum (tomatillo)#Aristotelia chilensis (maqui)#Guindilia trinervis (guindilla)
+</string>
+
+    <!-- abeja 2 -->
+    <string name="colletidae_Cadeguala_occidentalis">
+Cadeguala occidentalis
+</string>
+
+    <string name="colletidae_Cadeguala_occidentalis_descripcion">
+Es una abeja grande robusta. Tiene cuerpo, patas y antenas negras. Su pilosidad es abundante y de color anaranjado. Tiene escopas tíbiales muy marcadas. Se distribuye desde la Región de Atacama hasta la Región de Los lagos. Tiene una alta presencia, en asociación con parches de Pasithea coerulea (Azulillo) en el mes de Octubre. Construye sus nidos en suelos arcillosos.
+</string>
+
+    <string name="colletidae_Cadeguala_occidentalis_plantas">
+Pasithaea coerulea#Lithrea caustica#Adesmia sp#Eryngium paniculatum#Adesmia angustifolia#Lomatia hirsuta#Ribes sp.
+</string>
+
+    <!-- abeja 3 -->
+    <string name="colletidae_Colletes_seminitidus">
+Colletes seminitidus
+</string>
+
+    <string name="colletidae_Colletes_seminitidus_descripcion">
+Tienen tamaño mediano, que va desde 7 a 16 mm. Sus antenas y su cabeza son de color negro. El abdomen es de color verde-azuloso brillante. Su pilosidad es blanco amarillenta en el tórax. Los machos presentan, además, abundante pilosidad blanca en el rostro. Emergen muy temprano en la temporada, por lo que su periodo de vuelo va de fines de julio a fines de enero. Nidifican en el suelo, en toda clase de terrenos. Son gregarias y hacen galerías de aproximadamente 15 centímetros de profundidad.
+</string>
+
+    <string name="colletidae_Colletes_seminitidus_plantas">
+Maytenus boaria (maitén)#ortiga caballuna#Trevoa trinervis (tevo)#Litrea caustica (litre)#Schinus latifolius (molle)#Lomatia hirsuta (radal)#Paltos#guindo ácido.
+</string>
+
+    <!-- abeja 4 -->
+    <string name="colletidae_Colletes_lucens">
+Colletes lucens
+</string>
+
+    <string name="colletidae_Colletes_lucens_descripcion">
+Abejas pequeñas, menores a 1 cm. Gran cantidad de pelos blanco amarillentos en todo el cuerpo. Se encuentra desde la Región de Atacama hasta la Región De Los Lagos.
+</string>
+
+    <string name="colletidae_Colletes_lucens_plantas">
+Taraxacum officinale#Haplopapus sp.#Baccharis sp.
+</string>
+
+    <!-- abeja 5 -->
+    <string name="colletidae_Chilicola_vernalis">
+Chilicola vernalis
+</string>
+
+    <string name="colletidae_Chilicola_vernalis_descripcion">
+Abejas pequeñas de tamaños entre 6 y 7 mm. Cuerpo de color negro con poca pilosidad de color blanco y corta. Los machos presentan además manchas amarillas en rostro y sus fémures posteriores están fuertemente engrosados. Sobrevuela entre septiembre y mayo. Se distribuye entre la región de Atacama y la Región del Maule. Se ha encontrado especímenes en la Laguna del Maule a más de 2.000 msnm.
+</string>
+
+    <string name="colletidae_Chilicola_vernalis_plantas">
+Baccharis sp.#Oxalis rosea#Maytenus boaria (maitén).
+</string>
+
+
+    <!-- Abejas Familia halictidae -->
+
+    <!-- abeja 1 -->
+
+    <string name="halictidae_Ruizanthedella_mutabilis">
+    Ruizanthedella mutabilis
+</string>
+
+    <string name="halictidae_Ruizanthedella_mutabilis_descripcion">
+    Abejas pequeñas de 8 mm. aproximadamente. Las hembras presentan patas negras mientras que en los machos son de color amarillo. El abdomen de las hembras puede variar de una tonalidad roja a una azul, por lo que puede confundirse con otras especies. Los machos suelen sobrevolar alrededor de flores en busca de hembras. Se distribuyen entre la Región de Valparaíso y la Araucanía, también presente en Argentina.
     </string>
+
+    <string name="halictidae_Ruizanthedella_mutabilis_plantas">
+    Baccharis sp.#Pasithaea coerulea#Schinus latifolius#Calceolaria sp.#Quillaja saponaria.
+    </string>
+
+
+    <!-- abeja 2 -->
+
+    <string name="halictidae_Ruizanthedella_proxima">
+    Ruizanthedella proxima
+    </string>
+
+    <string name="halictidae_Ruizanthedella_proxima_descripcion">
+    Abejas pequeñas menores de 8 mm. Presentan abundante pilosidad en el tórax de color blanquecina. Las hembras presentan patas oscuras mientras los machos tienen patas amarillas y parte del rostro también amarillo
+    </string>
+
+    <string name="halictidae_Ruizanthedella_proxima_plantas">
+    Baccharis sp.#Schinus latifolius#Quillaja saponaria#Brassica campestris
+    </string>
+
+    <!-- abeja 3 -->
+
+    <string name="halictidae_Corynura_chloris">
+    Corynura chloris
+    </string>
+
+    <string name="halictidae_Corynura_chloris_descripcion">
+    Son abejas pequeñas, de tamaños  menores a 10 mm. Es de color verde metálico, muy llamativa. Se suelen ver en la temporada primavera-verano desde septiembre hasta marzo inclusive. Construye sus nidos en suelos planos y soleados, Son semisociales por lo que se pueden ver hembras de la generación anterior acompañando a las crías. Ampliamente distribuida en Chile central desde la región de Coquimbo hasta la región de La Araucanía. Suelen estar muy presentes en zonas urbanas de grandes ciudades y también en zonas protegidas y de rica diversidad. Es una especie nativa y también se puede ver en Argentina.
+    </string>
+
+    <string name="halictidae_Corynura_chloris_plantas">
+    Peumus boldo (boldo)#Criptocaria alba (peumo)#Maytenus boaria (maitén)#Quillaja saponaria (quillay)#Schinus latifolius (molle)#Baccharis#guindo ácido#palto#cerezos#arándanos.
+    </string>
+
+
+    <!-- abeja 4 -->
+
+    <string name="halictidae_Corynura_chilensis">
+    Corynura chilensis
+    </string>
+
+    <string name="halictidae_Corynura_chilensis_descripcion">
+    Abejas de tamaño menores que 1 cm. Su cuerpo es de color negro con líneas en la parte superior del  abdomen de color blanquecinas Tiene patas y antenas de color anaranjado, así como la venación de las alas.  Se distribuyen desde la Región de Coquimbo hasta la Región de los Lagos.
+    </string>
+
+    <string name="halictidae_Corynura_chilensis_plantas">
+    Eryngium paniculatum#Baccharis sp.#Schinus latifolius#Persea american.
+    </string>
+
+
+    <!-- abeja 5 -->
+
+    <string name="halictidae_Corynura_cristata">
+    Corynura cristata
+    </string>
+
+    <string name="halictidae_Corynura_cristata_descripcion">
+    Son abejas que tienen tamaño pequeño, que van desde 7 a 9 mm. Sus antenas, cabeza y cuerpo son de color negro. Sin embargo en el tórax presenta agrupaciones de pelos amarillos, así como en la parte superior del abdomen conformando verdaderas bandas de pelos amarillos. Se distribuye desde la Región de Coquimbo hasta la Región de La Araucanía. Es una especie endémica. Emergen en temporada primavera-verano.
+    </string>
+
+    <string name="halictidae_Corynura_cristata_plantas">
+    Maytenus boaria (maitén)#Trevoa trinervis (tevo)#guindo ácido
+    </string>
+
+
+    <!-- Abejas Familia megachilidae -->
+
+    <!-- abeja 1 -->
+
+    <string name="megachilidae_Megachile_saulcyi">
+    Megachile saulcyi
+    </string>
+
+    <string name="megachilidae_Megachile_saulcyi_descripcion">
+    Son abejas robustas, de tamaños entre 10 y 12 mm. De color negro con pilosidad blanca grisácea en tórax y abdomen en parte superior. Escopas tíbiales negras. Son especies polilécticas de vuelo zigzagueantes. Se distribuye entre las regiones de Antofagasta y la Araucanía. Encontrándose también en Perú y Argentina.
+    </string>
+
+    <string name="megachilidae_Megachile_saulcyi_plantas">
+    Alstroemeria sp.#Senecio sp.#Galega officinalis#Echium vulgare.
+    </string>
+
+    <!-- abeja 2 -->
+
+    <string name="megachilidae_Megachile_semirufa">
+    Megachile semirufa
+    </string>
+
+    <string name="megachilidae_Megachile_semirufa_descripcion">
+    Abejas grandes y robustas, de tamaños entre 12 y 15 mm. Patas y rostro de color negro. Con una abundante pilosidad de color rojizo en tórax y abdomen, menos los últimos segmentos del abdomen que son de color negro. Nidifica en cavidades preestablecidas bajo piedras y construye sus celdas con hojas de diferentes plantas. Se distribuye entre las regiones de Coquimbo y Los Ríos, aunque es más frecuente verlas en zonas cordilleranas como la Laguna del Maule, también se encuentra en Argentina.
+    </string>
+
+    <string name="megachilidae_Megachile_semirufa_plantas">
+    Alstroemeria sp.#Adesmia sp.#Phacelia secunda
+    </string>
+
+    <!-- abeja 3 -->
+
+    <string name="megachilidae_Notanthidium_rudolphi">
+    Notanthidium rudolphi
+    </string>
+
+    <string name="megachilidae_Notanthidium_rudolphi_descripcion">
+    Abejas de tamaños medianos entre 8 y 10 mm. Cuerpo negro con antenas y patas rojas. Presenta manchas blancas amarillentas en parte anterior del tórax y franjas completas e incompletas en abdomen. Se distribuye entre las regiones de Atacama  y la Araucanía.
+    </string>
+
+    <string name="megachilidae_Notanthidium_rudolphi_plantas">
+    Malesherbia linearifolia#Adesmia sp.
+    </string>
+
+    <!-- Abejas Familia Apidae -->
+
+    <!-- abeja 1 -->
+
+    <string name="apidae_Centris_nigérrima">
+    Centris nigérrima
+    </string>
+
+    <string name="apidae_Centris_nigérrima_descripcion">
+    Es una abeja de gran tamaño. Con cuerpo y pilosidad de color negro. Los machos presentan parte de la cara (clípeo) de color amarillo. Las hembras tienen grandes escopas en patas posteriores para la colecta de polen. Se encuentra desde la Región de Atacama hasta la Región  de los Lagos. Está presente en otros países de Sudamérica. Nidifica en suelos duros.
+    </string>
+
+    <string name="apidae_Centris_nigérrima_plantas">
+    Alstroemeria ligtu ssp. simsii#Chloraea bletioides#Calceolaria sp.#Senecio sp.
+    </string>
+
+    <!-- abeja 2 -->
+
+    <string name="apidae_Centris_cineraria">
+    Centris cineraria
+    </string>
+
+    <string name="apidae_Centris_cineraria_descripcion">
+    Es una abeja de gran tamaño, robusta que mide entre 10 y 15 cms. Con cuerpo negro y pilosidad blanca en mesosoma (parte superior del tórax). En el abdomen (metasoma) presenta coloración azul metálica. Presentan estructuras para colectar aceites en patas posteriores. Es una especie politécnica y se encuentra desde la Región de Atacama hasta la Araucanía, incluso Argentina. Nidifica en suelos duros.
+    </string>
+
+    <string name="apidae_Centris_cineraria_plantas">
+    Calceolaria sp.#Adesmia sp.#Astragalus sp.
+    </string>
+
+    <!-- abeja 3 -->
+
+    <string name="apidae_Manuelia_gayi">
+    Manuelia gayi
+    </string>
+
+    <string name="apidae_Manuelia_gayi_descripcion">
+    Abejas pequeñas de tamaños que van entre los 5-7 mm. Cuerpo de color azul oscuro, patas y antenas negras. Pilosidad escasa, corta y grisácea. Construye sus nidos en tallos huecos y secos de zarzamoras, quilas, bambú y puyas. Se encuentra entre la Región de Valparaíso y la Región de los Ríos.
+    </string>
+
+    <string name="apidae_Manuelia_gayi_plantas">
+    Puya coerulea#Alstroemeria sp.#Eccremocarpus scaber.
+    </string>
+
+    <!-- abeja 4 -->
+
+    <string name="apidae_Allorscirtetica_gayi">
+    Allorscirtetica gayi
+    </string>
+
+    <string name="apidae_Allorscirtetica_gayi_descripcion">
+    Es una abeja mediana, de tamaños entre 1,2 a 1,5 cms. Su cuerpo es negro con pilosidad blanca en tórax y parte del abdomen. Presenta mancha de pelos blancos en tibias. Los machos presentan además una mancha amarilla en clípeo. Se encuentra entre las regiones de Atacama y de los Ríos.
+    </string>
+
+    <string name="apidae_Allorscirtetica_gayi_plantas">
+    Alstroemeria sp.#Loasa tricolor#Stachys sp.
+    </string>
+
+    <!-- abeja 5 -->
+
+    <string name="apidae_Diadasia_chilensis">
+    Diadasia chilensis
+    </string>
+
+    <string name="apidae_Diadasia_chilensis_descripcion">
+    Abejas de tamaños menores a 1 cm. Muy peludas y los machos presentan manchas amarillas en clípeo. Es una especie en que los machos emergen antes que las hembras (especie protándrica). Se encuentra entre las regiones de Atacama y de los Ríos.
+    </string>
+
+    <string name="apidae_Diadasia_chilensis_plantas">
+    Clarkia tenella#Galega officinalis#Brassica campestris
+    </string>
+
+
+    <!-- NIDOS -->
+
+    <string name="nidos_name">
+    Nidos
+</string>
+
+    <string name="nidos_descripcion">
+        Las abejas nativas hacen sus nidos en diferentes sustratos, como el suelo, madera o cavidades preestablecidas. Tomando en cuenta esta información es recomendable construir trampas nido, las cuales entregarán un lugar para vivir a las abejas nativas.
+        También puedes revisar el suelo cercano a las plantas estudiadas y ver si existen zonas de nidificación.
+    </string>
+
+
+    <!--  Comportamiento Recolector -->
+
+    <string name="comportamiento_ecolector_name">
+        Comportamiento Recolector
+    </string>
+
+    <string name="ncomportamiento_recolector_descripcion">
+    Censo#Esta actividad se realizarán observaciones a las flores de las plantas estudiadas y se registrarán los visitantes florales. Debes pararte delante de la planta y observar sus flores durante 5 minutos, en ese tiempo tienes que registrar todas las abejas que lleguen a la flor. Este registro nos ayudará a determinar la frecuencia y diversidad de visitantes florales que lleguen a la flor. Esta metodología es usada para hacer la asociación planta-abeja.
+    </string>
+
+
     <string name="title_activity_detalle_abeja">DetalleAbejaActivity</string>
+    <string name="large_text1">
+"Material is the metaphor.\n\n"
+
+"A material metaphor is the unifying theory of a rationalized space and a system of motion."
+"The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+"technologically advanced and open to imagination and magic.\n"
+"Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+"use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+"flexibility of the material creates new affordances that supercede those in the physical "
+"world, without breaking the rules of physics.\n"
+"The fundamentals of light, surface, and movement are key to conveying how objects move, "
+"interact, and exist in space and in relation to each other. Realistic lighting shows "
+"seams, divides space, and indicates moving parts.\n\n"
+
+"Bold, graphic, intentional.\n\n"
+
+"The foundational elements of print based design typography, grids, space, scale, color, "
+"and use of imagery guide visual treatments. These elements do far more than please the "
+"eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+"imagery, large scale typography, and intentional white space create a bold and graphic "
+"interface that immerse the user in the experience.\n"
+"An emphasis on user actions makes core functionality immediately apparent and provides "
+"waypoints for the user.\n\n"
+
+"Motion provides meaning.\n\n"
+
+"Motion respects and reinforces the user as the prime mover. Primary user actions are "
+"inflection points that initiate motion, transforming the whole design.\n"
+"All action takes place in a single environment. Objects are presented to the user without "
+"breaking the continuity of experience even as they transform and reorganize.\n"
+"Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+"Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+"3D world.\n\n"
+
+"The material environment is a 3D space, which means all objects have x, y, and z "
+"dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+"positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+"position along the z-axis and has a standard 1dp thickness.\n"
+"On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+"emulated by manipulating the y-axis.\n\n"
+
+"Light and shadow.\n\n"
+
+"Within the material environment, virtual lights illuminate the scene. Key lights create "
+"directional shadows, while ambient light creates soft shadows from all angles.\n"
+"Shadows in the material environment are cast by these two light sources. In Android "
+"development, shadows occur when light sources are blocked by sheets of material at "
+"various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+"y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+"Resting elevation.\n\n"
+
+"All material objects, regardless of size, have a resting elevation, or default elevation "
+"that does not change. If an object changes elevation, it should return to its resting "
+"elevation as soon as possible.\n\n"
+
+"Component elevations.\n\n"
+
+"The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+"does not vary from 6dp in one app to 16dp in another app).\n"
+"Components may have different resting elevations across platforms, depending on the depth "
+"of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+"Responsive elevation and dynamic elevation offsets.\n\n"
+
+"Some component types have responsive elevation, meaning they change elevation in response "
+"to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+"changes are consistently implemented using dynamic elevation offsets.\n"
+"Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+"to the component’s resting state. They ensure that elevation changes are consistent "
+"across actions and component types. For example, all components that lift on press have "
+"the same elevation change relative to their resting elevation.\n"
+"Once the input event is completed or cancelled, the component will return to its resting "
+"elevation.\n\n"
+
+"Avoiding elevation interference.\n\n"
+
+"Components with responsive elevations may encounter other components as they move between "
+"their resting elevations and dynamic elevation offsets. Because material cannot pass "
+"through other material, components avoid interfering with one another any number of ways, "
+"whether on a per component basis or using the entire app layout.\n"
+"On a component level, components can move or be removed before they cause interference. "
+"For example, a floating action button (FAB) can disappear or move off screen before a "
+"user picks up a card, or it can move if a snackbar appears.\n"
+"On the layout level, design your app layout to minimize opportunities for interference. "
+"For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+"when a user tries to pick up one of cards.\n\n"
+</string>
+    <string name="action_settings">Settings</string>
+    <string name="identifications">Identificación de Especies</string>
+    <string name="title_activity_detalle_familia">DetalleFamiliaActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
@@ -139,6 +530,5 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="action_settings">Settings</string>
 
 </resources>

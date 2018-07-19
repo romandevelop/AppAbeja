@@ -1,13 +1,90 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="cl.gestiona.appabeja.GuiaFragment">
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="cl.gestiona.appabeja.PlantasFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
 
-</FrameLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/item_card_img_nativa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/nativa"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/item_card_title_nativa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantas Nativas"
+                android:textSize="35sp"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="false"
+                android:padding="16dp"
+                android:textStyle="bold|italic"
+                android:background="@color/tranparent"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/item_card_img_exotica"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/exotica"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/item_card_title_exotica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantas Exóticas"
+                android:textSize="35sp"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="false"
+                android:padding="16dp"
+                android:textStyle="bold|italic"
+                android:background="@color/tranparent"
+                />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
+    </ScrollView>

@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/item1"
-        android:title="Ajustes"
-        android:icon="@drawable/icon_config"
 
-        />
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_next"
+        android:title="Laboratorio de Ecologías de Abejas" />
 
-    <item android:id="@+id/item2"
-        android:title="Ayuda y Sugerencias"
-        android:icon="@drawable/ic_help"
 
-        />
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_next"
+        android:title="Liceo Técnico Agrícola María Auxiliadora de Colines" />
+
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_next"
+        android:title="Escuela Básica de Talca" />
+
+
+    <item
+        android:id="@+id/item4"
+        android:icon="@drawable/ic_next"
+        android:title="Liceo Santa Marta" />
+
+    <item
+        android:id="@+id/item5"
+        android:icon="@drawable/ic_next"
+        android:title="Colegio Constitución" />
+
+    <item
+        android:id="@+id/item6"
+        android:icon="@drawable/ic_next"
+        android:title="Explora Conicyt" />
+
+    <item
+        android:id="@+id/item7"
+        android:icon="@drawable/ic_next"
+        android:title="Par Explora O'higgins - UCM" />
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/item8"
+            android:icon="@drawable/ic_book"
+            android:title="Libro"
+
+            />
+
+    </group>
+
 
 </menu>

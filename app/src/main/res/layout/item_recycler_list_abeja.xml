@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/item_list_perfil"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+
+        />
+
+    <TextView
+        android:id="@+id/item_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title ant"
+        android:textStyle="italic"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_toRightOf="@id/item_list_perfil"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:id="@+id/item_list_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is a little description a ant"
+        android:layout_below="@id/item_list_title"
+        android:layout_toRightOf="@id/item_list_perfil"
+        android:layout_marginLeft="8dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/item_list_perfil"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="56dp"
+        />
+</RelativeLayout>
