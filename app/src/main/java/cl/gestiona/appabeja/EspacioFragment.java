@@ -50,6 +50,24 @@ public class EspacioFragment extends Fragment {
             }
         });
 
+        comportamiento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(),DetalleRecolectorNidoActivity.class);
+                i.putExtra("NAME","Comportamiento Recolector");
+                startActivity(i);
+            }
+        });
+
+        nidos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getActivity(),DetalleRecolectorNidoActivity.class);
+                i.putExtra("NAME","Nidos");
+                startActivity(i);
+            }
+        });
+
 
 
         return view;

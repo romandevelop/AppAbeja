@@ -15,7 +15,7 @@ import android.widget.VideoView;
 public class IdentificacionActivity extends AppCompatActivity {
 
     private ListView listView;
-    private String[] data={"Demostración","Megachilidae","Halictidae","Colletidae","Apidae","Adrenidae","Colletidae"};
+    private String[] data={"Demostración","Megachilidae","Halictidae","Colletidae","Apidae","Adrenidae"};
     private VideoView videoView;
     private String url;
 
@@ -53,23 +53,21 @@ public class IdentificacionActivity extends AppCompatActivity {
                         url = "android.resource://cl.gestiona.appabeja/"+R.raw.final2;
                         break;
                     case 1:
-                        url = "android.resource://cl.gestiona.appabeja/"+R.raw.v1;
-                        break;
-                    case 2:
                         url = "android.resource://cl.gestiona.appabeja/"+R.raw.v2;
                         break;
-                    case 3:
+                    case 2:
                         url = "android.resource://cl.gestiona.appabeja/"+R.raw.v3;
                         break;
-                    case 4:
+                    case 3:
                         url = "android.resource://cl.gestiona.appabeja/"+R.raw.v4;
                         break;
-                    case 5:
+                    case 4:
                         url = "android.resource://cl.gestiona.appabeja/"+R.raw.v5;
                         break;
-                    case 6:
+                    case 5:
                         url = "android.resource://cl.gestiona.appabeja/"+R.raw.v6;
                         break;
+
                 }
                 Uri path = Uri.parse(url);
                 videoView.setVideoURI(path);
@@ -79,7 +77,6 @@ public class IdentificacionActivity extends AppCompatActivity {
 
             }
         });
-
         //https://www.youtube.com/watch?v=f2MOYNTe2oU
         //videoView.setMediaController(new MediaController(this));
 

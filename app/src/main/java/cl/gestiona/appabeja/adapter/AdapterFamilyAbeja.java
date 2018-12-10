@@ -7,6 +7,7 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
+import android.support.design.widget.Snackbar;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.widget.RecyclerView;
@@ -23,7 +24,9 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import cl.gestiona.appabeja.DetalleAbejaActivity;
 import cl.gestiona.appabeja.DetalleFamiliaActivity;
+import cl.gestiona.appabeja.HomeActivity;
 import cl.gestiona.appabeja.R;
 import cl.gestiona.appabeja.model.FamiliaAbeja;
 import cl.gestiona.appabeja.model.ItemAbeja;
@@ -82,7 +85,7 @@ public class AdapterFamilyAbeja extends RecyclerView.Adapter<AdapterFamilyAbeja.
         public ImageView img;
         public TextView description;
 
-        public ItemViewHolder(View itemView) {
+        public ItemViewHolder(final View itemView) {
             super(itemView);
             title = (TextView) itemView.findViewById(R.id.item_list_title);
             img = (ImageView) itemView.findViewById(R.id.item_list_perfil);
@@ -92,6 +95,7 @@ public class AdapterFamilyAbeja extends RecyclerView.Adapter<AdapterFamilyAbeja.
             title.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    DetalleAbejaActivity.progressDialog.show();
                     //Toast.makeText(activity, title.getText().toString(),Toast.LENGTH_SHORT).show();
                     Intent i = new Intent(activity, DetalleFamiliaActivity.class);
                     i.putExtra("NAME", title.getText().toString());
@@ -101,11 +105,19 @@ public class AdapterFamilyAbeja extends RecyclerView.Adapter<AdapterFamilyAbeja.
 
             img.setOnClickListener(new View.OnClickListener() {
                 @Override
+                public void onClick(View view) {
+                    Snackbar.make(itemView, "Pinche en el título de la familia", Snackbar.LENGTH_LONG)
+                            .setAction("Action", null).show();
+                }
+            });
+
+            /*img.setOnClickListener(new View.OnClickListener() {
+                @Override
                 public void onClick(View v) {
                     Toast.makeText(activity, "pincha en el titulo de la abeja :)",Toast.LENGTH_SHORT).show();
                 }
             });
-
+    */
 
         }
 

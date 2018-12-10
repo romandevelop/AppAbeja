@@ -24,7 +24,7 @@
                     android:id="@+id/item_card_img_identificacion"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/identificacion"
+                    android:src="@drawable/card_identificacion"
                     android:scaleType="centerCrop"
                     />
 
@@ -34,7 +34,7 @@
                     android:layout_height="wrap_content"
                     android:text="Identificación de especies"
                     android:textSize="35sp"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="false"
                     android:padding="16dp"
@@ -60,7 +60,7 @@
                     android:id="@+id/item_card_img_comportamiento"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/comportamiento"
+                    android:src="@drawable/card_recolector"
                     android:scaleType="centerCrop"
                     />
 
@@ -70,7 +70,7 @@
                     android:layout_height="wrap_content"
                     android:text="Comportamiento Recolector"
                     android:textSize="35sp"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="false"
                     android:padding="16dp"
@@ -96,7 +96,7 @@
                     android:id="@+id/item_card_img_nidos"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:src="@drawable/nidos"
+                    android:src="@drawable/card_nido"
                     android:scaleType="centerCrop"
                     />
 
@@ -106,7 +106,7 @@
                     android:layout_height="wrap_content"
                     android:text="Nidos"
                     android:textSize="35sp"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:layout_alignParentBottom="true"
                     android:layout_alignParentRight="false"
                     android:padding="16dp"

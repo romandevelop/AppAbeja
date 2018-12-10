@@ -1,5 +1,7 @@
 package cl.gestiona.appabeja;
 
+import android.app.ProgressDialog;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
@@ -13,6 +15,7 @@ import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,16 +32,28 @@ public class DetalleAbejaActivity extends AppCompatActivity {
 
     private TextToSpeech textToSpeech;
     private int resultTextToSpeech;
-    private FamiliaAbeja familiaAbeja;
-    private FloatingActionButton fab;
     private boolean stateSound=true;
+    private FloatingActionButton fab;
 
+    private FamiliaAbeja familiaAbeja;
+
+
+    public static  ProgressDialog progressDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle_abeja);
+        HomeActivity.progressDialog.cancel();
+
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Cargando...");
+        progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+        progressDialog.setProgressStyle(0);
+
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
         setSupportActionBar(toolbar);
 
         String name = getIntent().getStringExtra("NAME");
@@ -50,11 +65,13 @@ public class DetalleAbejaActivity extends AppCompatActivity {
         //getSupportActionBar().setTitle(str);
 
         //DEFINE TITLE IN COLLAPSED TOOLBAR ITALIC TEXT
-       /* final CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
+        final CollapsingToolbarLayout collapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.toolbar_layout);
 
-        collapsingToolbarLayout.setCollapsedTitleTypeface(Typeface.defaultFromStyle(Typeface.ITALIC));
-        collapsingToolbarLayout.setExpandedTitleTypeface(Typeface.defaultFromStyle(Typeface.ITALIC));
-        */
+        //collapsingToolbarLayout.setCollapsedTitleTypeface(Typeface.defaultFromStyle(Typeface.ITALIC));
+        //collapsingToolbarLayout.setExpandedTitleTypeface(Typeface.defaultFromStyle(Typeface.ITALIC));
+        //collapsingToolbarLayout.setCollapsedTitleTextColor(Color.BLACK);
+        //collapsingToolbarLayout.setExpandedTitleColor(Color.BLACK);
+
         familiaAbeja = searchAbeja(name);
 
         TextView txt = (TextView) findViewById(R.id.detalle_content);
@@ -109,7 +126,7 @@ public class DetalleAbejaActivity extends AppCompatActivity {
                 }
                 YoYo.with(Techniques.Tada)
                         .duration(700)
-                        .repeat(5)
+                        .repeat(1)
                         .playOn(findViewById(R.id.fab));
             }
         });
@@ -185,6 +202,9 @@ public class DetalleAbejaActivity extends AppCompatActivity {
         super.onDestroy();
 
     }
+
+
+
 
 
 

@@ -1,6 +1,7 @@
 package cl.gestiona.appabeja.adapter;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
@@ -16,6 +17,7 @@ import com.daimajia.androidanimations.library.YoYo;
 import java.util.List;
 
 import cl.gestiona.appabeja.DetalleAbejaActivity;
+import cl.gestiona.appabeja.HomeActivity;
 import cl.gestiona.appabeja.R;
 import cl.gestiona.appabeja.model.FamiliaAbeja;
 
@@ -51,6 +53,7 @@ public class AdapterAbeja  extends RecyclerView.Adapter<AdapterAbeja.AbejaViewHo
         familiaAbeja = list.get(position);
         holder.item_card_title.setText(familiaAbeja.nombre);
         holder.item_card_img.setImageResource(familiaAbeja.foto);
+
     }
 
     @Override
@@ -63,9 +66,11 @@ public class AdapterAbeja  extends RecyclerView.Adapter<AdapterAbeja.AbejaViewHo
         private ImageView item_card_img;
         private TextView item_card_title;
         private CardView card_content;
+        String id;
 
         public AbejaViewHolder(View view){
             super(view);
+
             item_card_img = (ImageView) view.findViewById(R.id.item_card_img);
             item_card_title = (TextView) view.findViewById(R.id.item_card_title);
             card_content = (CardView) view.findViewById(R.id.card_content);
@@ -73,6 +78,7 @@ public class AdapterAbeja  extends RecyclerView.Adapter<AdapterAbeja.AbejaViewHo
             item_card_img.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    HomeActivity.progressDialog.show();
                     //YoYo.with(Techniques.BounceInUp).playOn(card_content);
                     Intent i = new Intent(activity,DetalleAbejaActivity.class);
                     i.putExtra("NAME", item_card_title.getText().toString());
@@ -81,6 +87,8 @@ public class AdapterAbeja  extends RecyclerView.Adapter<AdapterAbeja.AbejaViewHo
             });
 
         }
+
+
 
 
     }

@@ -6,6 +6,8 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="ok">Ok</string>
+    <string name="cancel">Cerrar</string>
     <!-- Nombre Familia -->
     <string name="adrenidae_name">
 Adrenidae
@@ -343,12 +345,269 @@ Baccharis sp.#Oxalis rosea#Maytenus boaria (maitén).
         Comportamiento Recolector
     </string>
 
-    <string name="ncomportamiento_recolector_descripcion">
-    Censo#Esta actividad se realizarán observaciones a las flores de las plantas estudiadas y se registrarán los visitantes florales. Debes pararte delante de la planta y observar sus flores durante 5 minutos, en ese tiempo tienes que registrar todas las abejas que lleguen a la flor. Este registro nos ayudará a determinar la frecuencia y diversidad de visitantes florales que lleguen a la flor. Esta metodología es usada para hacer la asociación planta-abeja.
+    <string name="comportamiento_recolector_descripcion">
+    Censo: Esta actividad se realizarán observaciones a las flores de las plantas estudiadas y se registrarán los visitantes florales. Debes pararte delante de la planta y observar sus flores durante 5 minutos, en ese tiempo tienes que registrar todas las abejas que lleguen a la flor. Este registro nos ayudará a determinar la frecuencia y diversidad de visitantes florales que lleguen a la flor. Esta metodología es usada para hacer la asociación planta-abeja.
     </string>
 
 
+
+    <!-- tipos de plantas-->
+    <string name="exotica">Exótica</string>
+    <string name="nativa">Nativa</string>
+    <string name="endemica">Endémica</string>
+
+    <!--  Plantas Nativas -->
+
+    <string name="nat_eryngium_paniculatum_name">
+    Eryngium paniculatum (CARDONCILLO)
+</string>
+
+<string name="nat_eryngium_paniculatum_descripcion">
+    Es una planta muy abundante. De raíz fuerte y hojas lineares, numerosas, con finos dientes en los bordes. Su inflorescencia es grande con cabezuelas globosas. Se distribuye entre Coquimbo y la Patagonia. Su floración va de diciembre a enero. Planta nativa de Chile, Argentina, Brasil, entre otros países americanos.
+    </string>
+
+<string name="nat_haplopapus_sp_name">
+    Haplopapus sp
+    </string>
+
+<string name="nat_haplopapus_sp_descripcion">
+    Género de plantas con flores pertenecientes a la familia de las Asteraceas. En Chile son especies frecuentes o abundantes. Son arbustos clasificándose como subarbustos o arbustitos. Habitan en la costa rocosa, entre piedras de cerros rocosos de 1000 m de altura, terrenos degradados de laderas asoleadas, Laderas secas, bordes de camino, entre otros.
+    </string>
+
+<string name="nat_pasithaea_coerulea_name">
+    Pasithaea coerulea (AZULILLO).
+    </string>
+
+<string name="nat_pasithaea_coerulea_descripcion">
+    Muy frecuente. Raíz tuberosa (tubérculo), hojas radicales, lineares. Flores racimos laxos, 6 tépalos (tonalidades azul-violeta), 6 estambres. Floración de septiembre a diciembre. Se distribuye a lo largo de todo Chile. Habita laderas de cerros y terrenos pastosos.
+    </string>
+
+<string name="nat_schinus_latifolius_name">
+    Schinus latifolius (MOLLE).
+    </string>
+
+<string name="nat_schinus_latifolius_descripcion">
+    Frecuente. Arbol o arbusto siempreverde de 1 a 2,5 m de altura. Hojas con nervaduras muy marcadas. Flores en racimos axilares y terminales, los estambres se presentan en pareja. Floración de septiembre a octubre. Se distribuye entre Coquimbo y Concepción. Habita en faldas asoleadas de los cerros y cercano al mar.
+    </string>
+
+<string name="nat_maytenus_boaria_name">
+    Maytenus boaria (MAITÉN).
+    </string>
+
+<string name="nat_maytenus_boaria_descripcion">
+    Especie común. Hojas lanceoladas o elípticas y nervadura bien marcada. Flores masculinas con 4 a 5 estambres, flores femeninas con estigma grueso, tiene 4 a 5 pétalos. Floración de septiembre a diciembre. Se distribuye de Arica a Magallanes. Habita cerca de cursos de agua, laderas y praderas asoleadas.
+    </string>
+
+<string name="nat_retanilla_trinervia_name">
+    Retanilla trinervia (TEVO)
+    </string>
+
+<string name="nat_retanilla_trinervia_descripcion">
+    Especie muy común. Arbusto caduco, extremadamente espinoso y glabro. Tallos verdes, hojas opuestas ovaladas, con borde dentado. Flores solitarias o en fascículos de 2 a 6 unidades. Floración de septiembre a diciembre. Se distribuye desde Aconcagua hasta el Maule. Habita en faldas de cerros de la costa y del interior.
+    </string>
+
+<string name="nat_solanum_ligustrinum_name">
+    Solanum ligustrinum (TOMATILLO).
+    </string>
+
+<string name="nat_solanum_ligustrinum_descripcion">
+    Especie común. Arbusto ramoso, de 1 a 2 m de altura. Hojas simples, oval-lanceoladas, con bordes enteros. Flores de 1 cm de diámetro, se encuentran en racimos. Florece casi todo el año. Se distribuye de Coquimbo hacia el sur. Habita en terrenos degradados y laderas de cerros.
+    </string>
+
+<string name="nat_aristotelia_chilensis_name">
+    Aristotelia chilensis (MAQUI).
+    </string>
+
+<string name="nat_aristotelia_chilensis_descripcion">
+    Especie muy común. Árbol o arbusto siempreverde con tallos rojizos, mide de 3 a 4 m de alto. Hojas anchas de 3 a 7 cm de largo, aovado-lanceoladas, con bordes aserrados. Flores de 3 a 5 mm de longitud con 5 pétalos, 10 a 18 estambres y 2 a 3 estilos. Floración de septiembre a diciembre. Se distribuye de Coquimbo a Chiloé. Habita en lugares húmedos y sombríos.
+    </string>
+
+<string name="nat_guindilia_trinervis_name">
+    Guindilia trinervis (GUINDILLA).
+    </string>
+
+<string name="nat_guindilia_trinervis_descripcion">
+    Especie común. Arbusto siempreverde de 0.6 a 1.2 m de altura. Hojas opuestas, simples, de 1.5 a 2 cm de largo, elípticas. Flores solitarias de 6 a 8 mm de longitud. Florece casi todo el año. Se distribuye en los cerros de las provincias centrales de Chile. Habita en laderas de cerros andinas y costeras.
+    </string>
+
+<string name="nat_adesmia_angustifolia_name">
+    Adesmia angustifolia (ARVEJILLA).
+    </string>
+
+<string name="nat_adesmia_angustifolia_descripcion">
+    Especie frecuente. Hierba erecta de 5 a 30 cm de altura. Hojas compuestas, de 1.5 a 3.5 cm de largo. Flores en racimos laxos terminales, cada uno de 6 a 8 mm de longitud. Floración de septiembre a noviembre. Se distribuye entre Coquimbo y Concepción. Habita cerros y quebradas asoleadas en costa e interior.
+    </string>
+
+<string name="nat_lomatia_hirsuta_name">
+    Lomatia hirsuta (RADAL).
+    </string>
+
+<string name="nat_lomatia_hirsuta_descripcion">
+    Especie no muy común en la región central. Arbusto siempreverde de hojas grandes, ovaladas, coriáceas, con borde aserrado. Flores de color crema, racimos. Se distribuye desde Coquimbo a Chiloé.
+    </string>
+
+
+<string name="nat_loasa_tricolor_name">
+    Loasa tricolor (ORTIGA CABALLUNA).
+    </string>
+
+<string name="nat_loasa_tricolor_descripcion">
+    Especie muy abundante. Hierba anual, cubierta de pelos urticantes. Hojas de 12 a 15 cm de largo, de lámina ovalada, dividida, con los segmentos reguladamente recortados. Flores de 1.5 a 3 cm de diámetro con 5 pétalos y numerosos estambres. Floración de agosto a marzo. Se distribuye entre Coquimbo y Linares. Habita laderas de los cerros de la costa como del interior.
+    </string>
+
+<string name="nat_eccremocarpus_scaber_name">
+    Eccremocarpus scaber (CHUPA-CHUPA).
+    </string>
+
+<string name="nat_eccremocarpus_scaber_descripcion">
+    Especie común. Enredadera trepadora con tallos leñosos en la base, de 2 a 4 m de altura. Hojas compuestas. Flores de 2 a 4 cm de largo. Corola tubular con 4 estambres. Floración de octubre a marzo. Se distribuye de Aconcagua a Valdivia. Habita en redado en matorrales de las cordilleras bajas.
+    </string>
+
+<string name="nat_phacelia_secunda_name">
+    Phacelia secunda (CUNCUNA).
+    </string>
+
+<string name="nat_phacelia_secunda_descripcion">
+    Especie común. Hierba perenne. Tallo sencillo o ramificado de tamaño variable. Hojas en roseta radical, con formas y tamaños muy cambiantes. Flores de 4 a 7 mm de longitud con 5 sépalos peludos, 5 estambres largos y estilo bífido. Floración de octubre a febrero. Con distribución en Chile y el resto de América. Habita laderas de la cordillera de los Andes y de la Costa.
+    </string>
+
+<string name="nat_baccharis_sp_name">
+    Baccharis sp
+    </string>
+
+<string name="nat_baccharis_sp_descripcion">
+    Arbustos pertenecientes a la familia de las Asteraceas. Existen especies consideradas arbustos siempreverdes (B. linearis). Habitan en terrenos áridos y degradados de la cordillera de la Costa y de los Andes, cerros del litoral, orillas de ríos y esteros de provincias centrales, entre otros.
+    </string>
+
+
+
+
+<!-- exotica -->
+
+<string name="ex_taraxacum_officinale_name">
+    Taraxacum officinale (DIENTE DE LEÓN).
+    </string>
+
+<string name="ex_taraxacum_officinale_descripcion">
+    Especie muy abundante. Planta perenne, con raíz fuerte y sin tallo. Flores en cabezuela solitarias. Se distribuye desde Aconcagua a Magallanes. Se puede encontrar en potreros, cultivos, parques, terrenos húmedos y fértiles
+    </string>
+
+
+<string name="ex_brassica_campestris_name">
+    Brassica campestris (YUYO).
+    </string>
+
+<string name="ex_brassica_campestris_descripcion">
+    Especie muy abundante. Hierba anual, de 0.30 a 1.20 m de altura. Hojas superiores e inferiores con diferente forma peludas las primeras y glaucas las segundas. Floración comienza a fines de invierno y termina a finales de otoño. Se distribuye a lo largo de todo Chile. Se encuentra en potreros, orillas de camino.
+    </string>
+
+<string name="ex_persea_americana_name">
+    Persea americana (PALTO).
+    </string>
+
+<string name="ex_persea_americana_descripcion">
+    Especie comercial. Árbol siempreverde que alcanza hasta 20 m de altura.  Hojas simples grandes  y oblongas de color verde oscuro. Contiene abundantes flores pequeñas. Su fruto es la palta, una baya gruesa de distinta forma. Se cultiva comercialmente desde Atacama hasta El Libertador Bernardo O´Higgins.
+    </string>
+
+<string name="ex_galega_officinalis_name">
+    Galega officinalis (GALEGA).
+    </string>
+
+<string name="ex_galega_officinalis_descripcion">
+    Especie muy frecuente. Hierba perenne de 1 a 1.5 m de alto. Hojas de 5 a 18 cm de largo, dividida en 13 a 25 foliolos elípticos. Flores de 10 a 14 mm de longitud agrupadas en racimos densos. Presenta 10 estambres 9 unidos y uno libre. Floración de noviembre a marzo. Especie de origen europeo. Habita en suelos húmedos y en potreros.
+    </string>
+
+<string name="ex_echium_vulgare_name">
+    Echium vulgare (HIERBA AZUL)
+    </string>
+
+<string name="ex_echium_vulgare_descripcion">
+    Especie común. Planta cubierta de pelos blancos y punzantes. Tallos erectos de hasta 1 m de altao. Hojas alternas. Flores de 15 mm de longitud, corola con dos labios, presenta 4 estambres largos. Floración primavera y verano. Se distribuye de Santiago a Malleco. Habita en bordes de camino, maleza de cultivos.
+    </string>
+
+
+
+
+<!-- endemica -->
+
+<string name="en_quillaja_saponaria_name">
+    Quillaja saponaria  (QUILLAY).
+    </string>
+
+<string name="en_quillaja_saponaria_descripcion">
+    Especie frecuente. Árbol o arbusto siempreverde de 2 a 10 m. Hojas de 2 a 5 cm elípticas o aovadas. Flores reunidas en corimbos. Flores con 5 pétalos, 5 estigmas y 10 a 12 estambres. Floración de noviembre a enero. Se distribuye de Coquimbo al Bío Bío. Se encuentra en litoral, valle central y precordillera, en terrenos y laderas asoleadas.
+    </string>
+
+<string name="en_peumus_boldo_name">
+    Peumus boldo (BOLDO)
+    </string>
+
+<string name="en_peumus_boldo_descripcion">
+    Especie frecuente. Árbol o arbusto de 3 a 6 m de altura. Hojas opuestas, aovalado-oblongas, con borde entero curvado hacia el envés. Flores en racimos cortos, estambres numerosos. Floración de julio a noviembre. Se distribuye entre Aconcagua y Osorno. Se puede encontrar en cerros asoleados de la precordillera andina y de la costa.
+    </string>
+
+<string name="en_lithrea_caustica_name">
+    Lithrea caustica (LITRE).
+    </string>
+
+<string name="en_lithrea_caustica_descripcion">
+    Especie extremadamente frecuente. Árbol siempreverde de 1 a 4 m de altura. Hojas de 2.5 a 6 cm de largo, ovales u ovado-oblongas, con nervadura muy marcada. Flores dioicas con 5 pétalos, 10 estambres flores masculinas. Floración septiembre a diciembre. Se distribuye de Coquimbo a Cautín.
+    </string>
+
+
+<string name="en_oxalis_rosea_name">
+    Oxalis rosea (VINAGRILLO).
+    </string>
+
+<string name="en_oxalis_rosea_descripcion">
+    Especie común. Hierba anual, glabra. Tallo herbáceo, jugosos de 20 a 40 cm de alto. Hojas trifoliadas, de 1.5 cm de largo. Flores de 1.5 cm de diámetro, en racimo de 3 a 5 unidades, con 5 pétalos y 10 estambres. Floración de septiembre a noviembre. Se distribuye entre Coquimbo a Chiloé. Habita en laderas sombrías.
+    </string>
+
+<string name="en_alstroemeria_ligtu_name">
+    Alstroemeria ligtu (FLOR DEL GALLO).
+    </string>
+
+<string name="en_alstroemeria_ligtu_descripcion">
+    Especie muy frecuente. Hierba perenne, con tubérculos alargados blancos. Tallos de 25 a 60 cm de altura. Hojas lanceoladas, agudas. Flores de 4 a 6 cm de longitud, en umbrela de 3 a 15 radios, cada uno con 1 a 4 flores, 3 tépalos externos sin manchas y 3 internos manchados. Floración de octubre a diciembre. Se distribuye entre Aconcagua y Malleco. Habita en laderas algo húmedas y asoleadas de la costa y del interior.
+    </string>
+
+<string name="en_chloraea_bletioides_name">
+    Chloraea bletioides (LENGUA DE LORO).
+    </string>
+
+<string name="en_chloraea_bletioides_descripcion">
+    Especie frecuente. Planta perenne, glabra, de 30 a 80 cm de alto. Hojas interiores lanceoladas, de 15 cm de largo por 2 de ancho. Flores de 4.5 a 6 cm de longitud, en racimos de pocas unidades. 3 pétalos y 1 estambre de antera grande. Floración de septiembre a noviembre. Se distribuye entre Aconcagua y Concepción. Habita en la baja cordillera.
+    </string>
+
+<string name="en_puya_coerulea_name">
+    Puya coerulea (CHAGUAL).
+    </string>
+
+<string name="en_puya_coerulea_descripcion">
+    Especie frecuente. Planta perenne, con hojas en roseta. Tallo floral de 0.5 a 2 m de alto. Hojas lineares con bordes espinosos, de 60 cm de largo por dos de ancho, color casi blanco. Flores con inflorescencia laxa, de tallo rojo, tiene 6 tépalos y 6 estambres. Floración de octubre a febrero. Se distribuye en toda la zona central de Chile. Habita en laderas asoleadas de cerros.
+    </string>
+
+
+<string name="en_malesherbia_linearifolia_name">
+    Malesherbia linearifolia (ESTRELLA AZUL).
+    </string>
+
+<string name="en_malesherbia_linearifolia_descripcion">
+    Especie abundante. Planta peluda, polimorfa, viscosa de mal olor. Tallos ramificados desde la base, hasta un metro de altura. Hojas lineares de 5 a 18 cm de largo por 0.6 a 2 cm de ancho. Flores de 2 a 2.5 cm de diámetro, en panoja laxa, con 5 pétalos. Floración de octubre a enero. Se distribuye en el norte y centro de Chile. Habita laderas asoleadas de los cerros.
+    </string>
+    
+
+
     <string name="title_activity_detalle_abeja">DetalleAbejaActivity</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <string name="large_text1">
 "Material is the metaphor.\n\n"
 

@@ -7,11 +7,13 @@ package cl.gestiona.appabeja.model;
 public class ItemFlower{
     public int nombre;
     public int tipo;
+    public int descripcion;
     public int foto;
 
-    public ItemFlower(int nombre, int tipo, int foto) {
+    public ItemFlower(int nombre, int tipo, int descripcion, int foto) {
         this.nombre = nombre;
         this.tipo = tipo;
+        this.descripcion = descripcion;
         this.foto = foto;
     }
 }

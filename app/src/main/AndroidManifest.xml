@@ -34,6 +34,12 @@
             android:label="@string/title_activity_detalle_familia"
             android:parentActivityName=".DetalleAbejaActivity"
             android:theme="@style/AppTheme"></activity>
+
+        <activity android:name=".DetalleRecolectorNidoActivity"
+            android:parentActivityName=".HomeActivity"/>
+
+        <activity android:name=".DetalleFlowerActivity"
+            android:parentActivityName=".HomeActivity"/>
     </application>
 
 </manifest>

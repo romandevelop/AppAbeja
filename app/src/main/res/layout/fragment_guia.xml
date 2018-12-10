@@ -12,6 +12,7 @@
     tools:context="cl.gestiona.appabeja.PlantasFragment">
 
     <android.support.v7.widget.CardView
+        android:id="@+id/card_nativa"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="16dp"
@@ -25,7 +26,7 @@
                 android:id="@+id/item_card_img_nativa"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/nativa"
+                android:src="@drawable/na_adesmia"
                 android:scaleType="centerCrop"
                 />
 
@@ -35,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:text="Plantas Nativas"
                 android:textSize="35sp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="false"
                 android:padding="16dp"
@@ -48,6 +49,7 @@
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
+        android:id="@+id/card_exotica"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_margin="16dp"
@@ -61,7 +63,7 @@
                 android:id="@+id/item_card_img_exotica"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/exotica"
+                android:src="@drawable/ex_brassica"
                 android:scaleType="centerCrop"
                 />
 
@@ -71,7 +73,48 @@
                 android:layout_height="wrap_content"
                 android:text="Plantas Exóticas"
                 android:textSize="35sp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="false"
+                android:padding="16dp"
+                android:textStyle="bold|italic"
+                android:background="@color/tranparent"
+                />
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_endemica"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/item_card_img_endemica"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/en_chloraea"
+                android:scaleType="centerCrop"
+                />
+
+            <TextView
+                android:id="@+id/item_card_title_endemica"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plantas Endémicas"
+                android:textSize="35sp"
+                android:textColor="@android:color/black"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="false"
                 android:padding="16dp"

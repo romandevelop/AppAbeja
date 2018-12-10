@@ -9,11 +9,13 @@ public  class ItemAbeja{
     public int descripcion;
     public int foto;
     public int plantas;
+    public ItemFlower[] flowers;
 
-    public ItemAbeja(int nombre, int descripcion, int foto, int plantas) {
+    public ItemAbeja(int nombre, int descripcion, int foto, int plantas, ItemFlower[]flowers) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.foto = foto;
         this.plantas=plantas;
+        this.flowers = flowers;
     }
 }

@@ -17,15 +17,43 @@
         android:layout_centerVertical="true"
         />
 
+    <TextView
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="16dp"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textColor="@android:color/white"
+        android:layout_above="@id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proyecto Explora CONICYT de Valoración y Divulgación de la Ciencia y la Tecnología 2017 -2018"
+
+        />
+
 
     <TextView
         android:text="@string/app_name"
         android:textColor="#fff"
+        android:id="@+id/title_init"
         android:layout_below="@id/img"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_below="@id/title_init"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="24dp"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guía interactiva de abejas nativas de Chile para el uso en la polinización: Valorando la biodiversidad a través de huertos escolares."
+        />
 
 
 
